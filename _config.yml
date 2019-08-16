@@ -4,7 +4,7 @@
 title:   'Alex Esc's Short Links'
 author: 
   name:  'Alex Esc.'
-description:  I host my short permanent links & temporary links here.
+description:  "I host my short permanent links & temporary links here."
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
