@@ -32,7 +32,7 @@ title: Link Box
 
 ---
 
-{% for tags in site.tags %}
+{% for post in site.tags.linkbox %}
   <h3>{{ tags[0] }}</h3>
   <ul>
     {% for post in tags[1] %}
