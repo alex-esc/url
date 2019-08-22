@@ -3,67 +3,17 @@ layout: default
 title: Link Box
 ---
 
-{% for post in site.posts %}
+# Link Box
 
-<article class='post'>
-  <h1 class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.excerpt }}
-    </a>
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-</article>
-
-{% endfor %}
-
-
-
-
----
+Here are some cool links, articles & blogs I found and want to share with the world.
 
 <ul>
   {% for post in site.tags.linkbox %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+	  found on <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
       {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
 
----
-
-{% for tags in site.tags %}
-  <h3>{{ tags[0] }}</h3>
-  <ul>
-    {% for post in tags[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
----
-
-{% for post in site.tags.linkbox %}
-  <ul>
-    {% for post in tags[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
----
-
-{% for post in site.posts limit:5 offset:1 %}
-
-
-<article class='post'>
-  <h3>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h3>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.excerpt | strip_html }}
-</article>
-
-{% endfor %}
