@@ -30,7 +30,16 @@ title: Link Box
   {% endfor %}
 </ul>
 
+---
 
+{% for tags in site.tags %}
+  <h3>{{ tags[linkbox] }}</h3>
+  <ul>
+    {% for post in tags[linkbox] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 ---
 
