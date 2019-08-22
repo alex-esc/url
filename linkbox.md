@@ -22,7 +22,7 @@ title: Link Box
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.tags.linkbox %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
@@ -43,7 +43,7 @@ title: Link Box
 
 ---
 
-{% for tags in site.tags.linkbox %}
+{% for post in site.tags.linkbox %}
   <ul>
     {% for post in tags[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
