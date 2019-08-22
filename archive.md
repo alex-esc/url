@@ -17,7 +17,7 @@ Press `f3` on desktop or tap `find in page` on mobile to search for keywords on 
   
     »
   <span class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a> ({{ post.excerpt }})
+    <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
   </span>
 </div>
 
