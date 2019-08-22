@@ -11,7 +11,7 @@ Here are some cool links, articles & blogs I found and want to share with the wo
   {% for post in site.tags.linkbox %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-	  found on <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+	  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
       {{ post.excerpt }}
     </li>
   {% endfor %}

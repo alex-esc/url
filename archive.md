@@ -16,15 +16,15 @@ Press `f3` on desktop or tap `find in page` on mobile to search for keywords on 
 
 # Short links in reverse chronological oder
 
-{% for post in site.posts %}
+{% for post in site.tags.shortlink %}
 
 <div>
   
     »
   <span class='post-title'>
     <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+	<p> {{ post.excerpt }} </p>
   </span>
 </div>
 
 {% endfor %}
-
