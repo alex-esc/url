@@ -32,7 +32,7 @@ title: Link Box
 
 ---
 
-{% for post in site.tags.linkbox %}
+{% for tags in site.tags %}
   <h3>{{ tags[0] }}</h3>
   <ul>
     {% for post in tags[1] %}
@@ -43,7 +43,7 @@ title: Link Box
 
 ---
 
-{% for post in site.tags.linkbox %}
+{% for tags in site.tags.linkbox %}
   <ul>
     {% for post in tags[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
