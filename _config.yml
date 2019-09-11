@@ -41,8 +41,14 @@ lsi: false
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
 
 excerpt_separator: <!--more-->
 
 kramdown:
   auto_ids: true # Auto-generate ID's for headings
+  
+  
+ feed:
+  tags:
+    - linkbox
