@@ -19,6 +19,7 @@ baseurl: '/url'
 other:
   about: 'https://alex-esc.github.io/en_us/pages/about.html' # URL for your about me page, it can be your linked in or other social media account 
 
+feeddescriptiononly: "Feed of my Public link bookmarks"
 404message: "Double check you wrote the URL correctly, some links are temporary and may not be available anymore. Go to the link archive to search for the link you're looking for."
 
 ########
