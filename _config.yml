@@ -1,7 +1,7 @@
 ###########
 # site.title, site.url, site.author.name
 
-title: "Alex Escs Short Links"
+title: "Alex Esc's Short Links"
 author: 
   name: 'Alex Esc.'
 description: I host my short permanent links & temporary links here.
@@ -49,6 +49,6 @@ kramdown:
   auto_ids: true # Auto-generate ID's for headings
   
   
- feed:
-  tags:
-    - linkbox
+feed:
+ tags:
+  - linkbox
