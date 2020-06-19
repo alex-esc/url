@@ -1,6 +1,6 @@
 ---
 layout: "null"
-title: "hoja calc"
+title: "Bio statistics evidence 1 spreadsheet"
 permalink: 'hoja-calculo-evidencia-uno-bio'
 tags: [shortlink]
 ---
