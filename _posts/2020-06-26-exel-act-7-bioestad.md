@@ -1,6 +1,6 @@
 ---
 layout: "null"
-title: "Bio statistics 3rd activity spreadsheet"
+title: "Bio statistics 7th activity spreadsheet"
 permalink: 'hoja-calculo-actividad-siete-bio'
 tags: [shortlink]
 ---
